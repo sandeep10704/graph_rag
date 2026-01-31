@@ -1,0 +1,93 @@
+# --------------------
+# Environment files
+# --------------------
+.env
+.env.*
+!.env.example
+
+# --------------------
+# Python cache / build
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --------------------
+# Virtual environments
+# --------------------
+venv/
+.env/
+.venv/
+env/
+
+# --------------------
+# IDE / Editor
+# --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --------------------
+# OS files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Logs
+# --------------------
+*.log
+logs/
+
+# --------------------
+# FastAPI / Uvicorn
+# --------------------
+uvicorn.log
+
+# --------------------
+# Jupyter / ML
+# --------------------
+.ipynb_checkpoints/
+data/
+datasets/
+models/
+checkpoints/
+
+# --------------------
+# Neo4j
+# --------------------
+neo4j/
+graph_data/
+*.dump
+
+# --------------------
+# Temp / cache
+# --------------------
+tmp/
+cache/
+
+# --------------------
+# Build artifacts
+# --------------------
+dist/
+build/
+*.egg-info/
+
+# --------------------
+# Secrets / keys
+# --------------------
+*.key
+*.pem
+*.crt
+
+# --------------------
+# Test coverage
+# --------------------
+.coverage
+htmlcov/
