@@ -3,8 +3,11 @@ from fastapi import FastAPI
 from app.core.neo4j import get_driver, close_driver
 from app.api.ingest import router as ingest_router
 from app.api.generate import router as generate_router
+def create_app():
+    return FastAPI()
 
-app = FastAPI()
+app = create_app()
+
 
 def create_constraints():
     def _constraints(tx):
